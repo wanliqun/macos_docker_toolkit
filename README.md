@@ -9,7 +9,7 @@ So I googled around, then based on the following references, I write some shell 
 
 ## **docker_regen.sh**
 This script will backup your docker images to tar archive files, then delete docker's single writable disk image`Docker.raw` (or `Docker.qcow2`), and finally restore the docker images from the previous backup files (and optionally remove the backup files). 
-You can change the docker settings preference to adjust the maximum docker image size during the process.
+You can change the docker preference settings to adjust the maximum docker image size during the process.
 
 ## **docker_reclaim.sh**
 This script will do a docker system prune,  then trim & reclaim the docker disk image size,  and output the pre-reclaim & post -reclaim disk space usage.
