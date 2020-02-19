@@ -4,7 +4,7 @@ mac os toolkit
 As a developer, I use docker to do my development work a lot on my Mac Air laptop. It's quite annoying that once I pulled some docker images and kicked  off some docker containers, the consuming  disk space keeps growing even after I try to  delete some files to free some space.
 
 So I googled around, then based on the following references, I write some shell scripts to work it out. It did work for me,  and I hope it work for you too.
-- [(David Scott's Blog)  Docker for Mac: reducing disk space]([https://djs55.github.io/jekyll/update/2017/11/27/docker-for-mac-disk-space.html](https://djs55.github.io/jekyll/update/2017/11/27/docker-for-mac-disk-space.html))
+- [(David Scott's Blog)  Docker for Mac: reducing disk space](https://djs55.github.io/jekyll/update/2017/11/27/docker-for-mac-disk-space.html))
 - [(StackOverflow)  Docker is filling up my disk space](https://stackoverflow.com/questions/39878939/docker-is-filling-up-my-disk-space)
 
 ## **docker_regen.sh**
